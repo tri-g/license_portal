@@ -1,0 +1,10 @@
+USE [License_Portal]
+GO
+set identity_insert [Status] on;
+go
+INSERT INTO [dbo].[Status]
+           ([StatusID]
+           ,[Description])
+     VALUES
+           (123,'safgsdgsgsdg'),(124,'dfdhfhdfhdf');
+set identity_insert [Status] off;
